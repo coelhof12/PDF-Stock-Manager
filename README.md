@@ -11,3 +11,6 @@ The PDF features three tables:
 - Received Materials: For adding materials received.
 - Used Materials: For logging materials used or removed.
 - Material Totals: Automatically updated totals based on the other two tables.
+
+## (Document & Repo in progress)
+
