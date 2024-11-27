@@ -24,5 +24,16 @@ The PDF features three tables:
 
 ## 🛠️ How It Works
 
+- Received Materials: Enter the materials received along with the quantity and date.
+- Used Materials: Log the materials removed or used.
+- Material Totals: Automatically calculates the total stock available.
+
+## 🌟 Use Cases
+
+This project can be repurposed for:
+- Inventory management in small businesses.
+- Order tracking in legacy systems.
+- Simple project tracking and reporting.
+
 ## (Document & Repo in progress)
 
