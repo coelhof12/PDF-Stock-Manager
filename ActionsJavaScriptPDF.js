@@ -4,107 +4,85 @@
    ======================================== */
 
 
-// ------ JS For Received Materials ------
+// ------ JS For Adding Received Materials ------
 
-// Get values from the received and used fields for Material 1
-var received = this.getField("receivedMaterial1").valueAsNumber || 0;
-var used = this.getField("usedMaterial1").valueAsNumber || 0;
-
-// Calculate the total for Material 1
-var total = received - used;
-
-// Update the total field for Material 1
-this.getField("totalMaterial1").value = total;
-
+// Add received material for Material 1
+var received = parseFloat(this.getField("receivedMaterial1").value) || 0;
+var totalField = this.getField("totalMaterial1");
+if (received !== 0) {
+    totalField.value = (parseFloat(totalField.value) || 0) + received;
+    this.getField("receivedMaterial1").value = "";
+}
 
 /* ======================================== */
 
-// Get values from the received and used fields for Material 2
-var received = this.getField("receivedMaterial2").valueAsNumber || 0;
-var used = this.getField("usedMaterial2").valueAsNumber || 0;
-
-// Calculate the total for Material 2
-var total = received - used;
-
-// Update the total field for Material 2
-this.getField("totalMaterial2").value = total;
-
+// Add received material for Material 2
+var received = parseFloat(this.getField("receivedMaterial2").value) || 0;
+var totalField = this.getField("totalMaterial2");
+if (received !== 0) {
+    totalField.value = (parseFloat(totalField.value) || 0) + received;
+    this.getField("receivedMaterial2").value = "";
+}
 
 /* ======================================== */
 
-// Get values from the received and used fields for Material 3
-var received = this.getField("receivedMaterial3").valueAsNumber || 0;
-var used = this.getField("usedMaterial3").valueAsNumber || 0;
-
-// Calculate the total for Material 3
-var total = received - used;
-
-// Update the total field for Material 3
-this.getField("totalMaterial3").value = total;
-
+// Add received material for Material 3
+var received = parseFloat(this.getField("receivedMaterial3").value) || 0;
+var totalField = this.getField("totalMaterial3");
+if (received !== 0) {
+    totalField.value = (parseFloat(totalField.value) || 0) + received;
+    this.getField("receivedMaterial3").value = "";
+}
 
 /* ======================================== */
 
-// Get values from the received and used fields for Material 4
-var received = this.getField("receivedMaterial4").valueAsNumber || 0;
-var used = this.getField("usedMaterial4").valueAsNumber || 0;
-
-// Calculate the total for Material 4
-var total = received - used;
-
-// Update the total field for Material 4
-this.getField("totalMaterial4").value = total;
-
+// Add received material for Material 4
+var received = parseFloat(this.getField("receivedMaterial4").value) || 0;
+var totalField = this.getField("totalMaterial4");
+if (received !== 0) {
+    totalField.value = (parseFloat(totalField.value) || 0) + received;
+    this.getField("receivedMaterial4").value = "";
+}
 
 /* ======================================== */
 
-// ------ JS For Used Materials ------
 
-// Get values from the received and used fields for Material 1
-var received = this.getField("receivedMaterial1").valueAsNumber || 0;
-var used = this.getField("usedMaterial1").valueAsNumber || 0;
+// ------ JS For Subtracting Used Materials ------
 
-// Calculate the total for Material 1
-var total = received - used;
-
-// Update the total field for Material 1
-this.getField("totalMaterial1").value = total;
-
+// Subtract used material for Material 1
+var used = parseFloat(this.getField("usedMaterial1").value) || 0;
+var totalField = this.getField("totalMaterial1");
+if (used !== 0) {
+    totalField.value = (parseFloat(totalField.value) || 0) - used;
+    this.getField("usedMaterial1").value = "";
+}
 
 /* ======================================== */
 
-// Get values from the received and used fields for Material 2
-var received = this.getField("receivedMaterial2").valueAsNumber || 0;
-var used = this.getField("usedMaterial2").valueAsNumber || 0;
-
-// Calculate the total for Material 2
-var total = received - used;
-
-// Update the total field for Material 2
-this.getField("totalMaterial2").value = total;
-
+// Subtract used material for Material 2
+var used = parseFloat(this.getField("usedMaterial2").value) || 0;
+var totalField = this.getField("totalMaterial2");
+if (used !== 0) {
+    totalField.value = (parseFloat(totalField.value) || 0) - used;
+    this.getField("usedMaterial2").value = "";
+}
 
 /* ======================================== */
 
-// Get values from the received and used fields for Material 3
-var received = this.getField("receivedMaterial3").valueAsNumber || 0;
-var used = this.getField("usedMaterial3").valueAsNumber || 0;
-
-// Calculate the total for Material 3
-var total = received - used;
-
-// Update the total field for Material 3
-this.getField("totalMaterial3").value = total;
-
+// Subtract used material for Material 3
+var used = parseFloat(this.getField("usedMaterial3").value) || 0;
+var totalField = this.getField("totalMaterial3");
+if (used !== 0) {
+    totalField.value = (parseFloat(totalField.value) || 0) - used;
+    this.getField("usedMaterial3").value = "";
+}
 
 /* ======================================== */
 
-// Get values from the received and used fields for Material 4
-var received = this.getField("receivedMaterial4").valueAsNumber || 0;
-var used = this.getField("usedMaterial4").valueAsNumber || 0;
-
-// Calculate the total for Material 4
-var total = received - used;
-
-// Update the total field for Material 4
-this.getField("totalMaterial4").value = total;
+// Subtract used material for Material 4
+var used = parseFloat(this.getField("usedMaterial4").value) || 0;
+var totalField = this.getField("totalMaterial4");
+if (used !== 0) {
+    totalField.value = (parseFloat(totalField.value) || 0) - used;
+    this.getField("usedMaterial4").value = "";
+}
