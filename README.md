@@ -35,5 +35,10 @@ This project can be repurposed for:
 - Order tracking in legacy systems.
 - Simple project tracking and reporting.
 
-## (Document & Repo in progress)
+## 🛠️ Technologies Used
+
+- JavaScript (embedded in the PDF).
+- Adobe Acrobat Pro.
+
+Thank you for exploring PDF Stock Manager!
 
