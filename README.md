@@ -2,7 +2,9 @@
 
 ## 💡 The Concept
 
-A lightweight and innovative solution to manage stock using JavaScript inside a PDF file. Designed originally for a legacy system running Adobe Reader XI on Windows XP, this project showcases how PDFs can be transformed into interactive tools for dynamic inventory management.
+A lightweight and innovative solution to manage stock using JavaScript inside a PDF file. Originally designed for a legacy system running Adobe Reader XI on Windows XP, this project demonstrates how PDFs can be transformed into interactive tools for dynamic inventory management.
+
+This concept emerged from the need to maintain up-to-date stock levels on a computer that could not support any new software installations. It was initially tailored for tracking specific materials used in a particular stage of the production line within a factory.
 
 ## 🎥 Website Demo
 
