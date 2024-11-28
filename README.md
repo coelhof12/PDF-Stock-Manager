@@ -1,5 +1,7 @@
 # 🗂️ PDF Stock Manager
 
+![Project Cover](https://raw.githubusercontent.com/coelhof12/PDF-Stock-Manager/refs/heads/main/Assets/Repo_Covers.jpg)
+
 ## 💡 The Concept
 
 A lightweight and innovative solution to manage stock using JavaScript inside a PDF file. Originally designed for a legacy system running Adobe Reader XI on Windows XP, this project demonstrates how PDFs can be transformed into interactive tools for dynamic inventory management.
