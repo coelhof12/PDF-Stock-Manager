@@ -11,7 +11,7 @@ This concept emerged from the need to maintain up-to-date stock levels on a comp
 ## 🎥 Website Demo
 
 <p align="left"> 
-   <img width="920" height="600" src="DEMO_URL_HERE"> 
+   <img width="920" height="600" src="https://raw.githubusercontent.com/coelhof12/PDF-Stock-Manager/refs/heads/main/Assets/PDF-Stock-Manager_DEMO.gif"> 
 </p>
 
 ## 📖 Introduction
